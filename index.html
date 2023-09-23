@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Home
 ---
 
 {% if page.url == "/" %}
 
+{% comment %}
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -25,6 +25,7 @@ title: Home
 
     </div>
 </section>
+{% endcomment %}
 
 {% endif %}
 
@@ -34,7 +35,7 @@ title: Home
 
     <div class="section-title">
 
-        <h2><span>All Stories</span></h2>
+        <h2><span>{% t main.home.posts %}</span></h2>
 
     </div>
 

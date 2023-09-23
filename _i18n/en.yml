@@ -1,0 +1,26 @@
+site:
+  name: dayoff
+  title: Dayanne Fernandes
+  description: Personal blog about tech, games and random topics.
+  keywords: Tech
+  lang: en
+author:
+  description: Software enginner @ Landing AI.
+main:
+  archive: Archive of posts with
+  home:
+    read: Read story
+    posts: Posts
+    topic: Category
+  error:
+    title: Page does not exist!
+    description: Please use the search bar or take a look at the home page.
+pages:
+  about: About me
+  category: Categories
+  contact: Contact
+  search: Search ...
+links:
+  about: about
+  category: categories
+  contact: contact

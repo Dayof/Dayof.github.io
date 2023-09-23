@@ -1,7 +1,4 @@
 # Site
-name: "Dayanne"
-title: "Dayanne Fernandes"
-description: "Dayanne personal blog."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
@@ -10,17 +7,18 @@ google_analytics: 'G-PH79E7DPX7'
 # mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
+languages: ["en", "pt"]
+exclude_from_localizations: ["javascript", "images", "css"]
 
 # Authors
 authors:
   dayanne:
     name: Dayanne
-    display_name: Dayanne
-    gravatar: x
+    display_name: Dayanne Fernandes
+    gravatar: de56ee3f6b625412a376d4a16640bd67
     email: dayannefernandesc@gmail.com
-    web: x
-    twitter: x
-    description: "Author of X."
+    linkedin: https://www.linkedin.com/in/dayoff
+    twitter: https://twitter.com/daayoff
 
 # Plugins
 plugins:
@@ -29,7 +27,8 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-    
+  - jekyll-multiple-languages-plugin
+   
 # Archives
 jekyll-archives:
   enabled:

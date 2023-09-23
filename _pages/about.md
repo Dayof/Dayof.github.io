@@ -1,12 +1,13 @@
 ---
 layout: page
-title: About me
+title:
+
+namespace: about
 permalink: /about
+permalink_pt: /sobre
 comments: false
 ---
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
+<h2>{% translate pages.about %}</h2>
 
-</div>
-</div>
+{% tf _pages/about.html %}

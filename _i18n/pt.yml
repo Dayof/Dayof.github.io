@@ -1,0 +1,26 @@
+site:
+  name: dayoff
+  title: Dayanne Fernandes
+  description: Blog pessoal de tecnologia, jogos e assuntos aleatórios.
+  keywords: tecnologia, jogos
+  lang: pt
+author:
+  description: Engenheira de software @ Landing AI.
+main:
+  archive: Histórico de posts com
+  home:
+    read: Leia postagem
+    posts: Postagens
+    topic: Categoria
+  error:
+    title: Página não encontrada!
+    description: Por favor tente procurar na barra de busca ou conferir a página principal.
+pages:
+  about: Sobre mim
+  category: Categorias
+  contact: Contato
+  search: Buscar ...
+links:
+  about: sobre
+  category: categorias
+  contact: contato
