@@ -1,4 +1,9 @@
-jQuery(document).ready(function($){ 
+jQuery(document).ready(function($) { 
+    if (localStorage.getItem('dark-mode') === 'true') {
+      enable();
+      $('#toggle-event').prop('checked', false).change();
+    }
+
     $('#toggle-event').change(function() {
       darkmode()
     })
@@ -6,18 +11,19 @@ jQuery(document).ready(function($){
     function darkmode() {
       let enabled = localStorage.getItem('dark-mode')
     
+      console.log(enabled)
       if (enabled === null) {
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
             enable();
         }
       } else if (enabled === 'true') {
-        enable()
+        enable();
       }
-    
+      
       if (localStorage.getItem('dark-mode') === 'false') {
-          enable();
+        enable();
       } else {
-          disable();
+        disable();
       }
     }
 

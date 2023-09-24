@@ -7,10 +7,9 @@ TODO
 ## Roadmap
 
 - Mobile responsive:
-    - Searchbar
     - Follow on twitter / Linkedin
 - Multi language search bar
-- Default toggle as sun
 - Fix share posts
 - Fix comments
+- Fix load /images/jumbotron.jpg not found on dark mode switch.
  
