@@ -1,7 +1,6 @@
 jQuery(document).ready(function($){ 
     $('#toggle-event').change(function() {
       darkmode()
-      console.log('Toggle: ' + $(this).prop('checked'))
     })
 
     function darkmode() {

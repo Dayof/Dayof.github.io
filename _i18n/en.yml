@@ -15,11 +15,16 @@ main:
   error:
     title: Page does not exist!
     description: Please use the search bar or take a look at the home page.
+  close: Close
 pages:
   about: About me
   category: Categories
   contact: Contact
-  search: Search ...
+  search:
+    bar: Search ...
+    results: Search results for
+    not_found: No results found...
+    not_found_try_again: Sorry, no results found. Close & try a different search!
 links:
   about: about
   category: categories

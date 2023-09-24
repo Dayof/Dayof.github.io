@@ -15,11 +15,16 @@ main:
   error:
     title: Página não encontrada!
     description: Por favor tente procurar na barra de busca ou conferir a página principal.
+  close: Fechar
 pages:
   about: Sobre mim
   category: Categorias
   contact: Contato
-  search: Buscar ...
+  search:
+    bar: Buscar ...
+    results: Procurar resultados sobre
+    not_found: Resultados não encontrados...
+    not_found_try_again: Desculpe, nenhum resultado foi encontrado. Feche e tente novamente com um novo termo!
 links:
   about: sobre
   category: categorias
