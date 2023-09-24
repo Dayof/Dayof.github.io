@@ -1,6 +1,7 @@
 # Site
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
+url: https://dayof.github.io
 baseurl: 
 google_analytics: 'G-PH79E7DPX7'
 disqus: 'nichioff'
