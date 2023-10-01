@@ -1,7 +1,7 @@
 site:
   name: dayoff
   title: Journey
-  description: A personal journey to survive the system.
+  description: A personal journey to survive the system
   keywords: indie hacker, games, competitive programing, python
   lang: en
 author:
