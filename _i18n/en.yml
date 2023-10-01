@@ -1,8 +1,8 @@
 site:
   name: dayoff
-  title: Dayanne Fernandes
-  description: Personal blog about tech, games and random topics.
-  keywords: Tech
+  title: Journey
+  description: A personal journey to survive the system.
+  keywords: indie hacker, games, competitive programing, python
   lang: en
 author:
   description: Software enginner @ Landing AI.
