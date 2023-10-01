@@ -8,7 +8,7 @@
     .lunrsearchresult a:hover .title {text-decoration: underline;}
 </style>
 
-<form class="bd-search col-ml-6" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" style="font-family: FontAwesome, Arial; font-style: normal" placeholder="&#xf002; {% t pages.search.bar %}"/>
 </form>
 
